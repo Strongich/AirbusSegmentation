@@ -69,7 +69,7 @@ pip install -r requirements.txt
 cd src
 python train.py --image_height 512 --image_width 512 --images_path "../data/train_v2" --masks_path "../data_cleared/uniqueAllLabels.csv" --lr 3e-4 --epochs 10 --batch_size_train 16 --batch_size_val 8
 ```
-Feel free to modify the parameters according to your available resources and requirements.
+Feel free to modify the parameters according to your available resources and requirements. \
 7. To launch the inference, execute the following command and press Enter:
 ```bash
 cd src
