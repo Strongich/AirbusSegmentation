@@ -10,3 +10,6 @@ ROOT_DIR_TEST = "../data/test_v2"
 LABEL_PATH = "../data_cleared/uniqueAllLabels.csv"
 LOAD_MODEL = False
 OUTPUT_PATH = "../runs/"
+GDRIVE_LINK = (
+    "https://drive.google.com/file/d/1Udq6lwf0MPiq-ZQyz5dT8bLVBVDv062z/view?usp=sharing"
+)

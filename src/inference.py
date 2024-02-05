@@ -10,6 +10,7 @@ import pandas as pd
 from tqdm import tqdm
 from dataset import TestDataset
 from torch.utils.data import DataLoader
+from get_model import download_file_if_empty
 
 device = DEVICE
 
@@ -30,7 +31,8 @@ def main():
     # create folder for output .csv file
     if not os.path.exists(OUTPUT_PATH):
         os.makedirs(OUTPUT_PATH)
-
+    # check if the model is downloaded locally
+    download_file_if_empty(SAVED_MODEL_PATH, GDRIVE_LINK, "model.pth")
     dataset = TestDataset(ROOT_DIR_TEST)
     dataloader = DataLoader(dataset, batch_size=16, shuffle=False, num_workers=8)
     # Load the model state dictionary
