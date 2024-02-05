@@ -28,12 +28,12 @@ This project showcases my solution to the [Airbus Ship Detection Challenge](http
 
 ### **Instructions for Using This Project:**
 >**Note:** Before utilizing this model, please download the [dataset](https://www.kaggle.com/c/airbus-ship-detection/data) and organize it within the project's `data` folder. The structure should resemble the following:
->
-> ├── data
-> │   ├── test_v2
-> │   ├── train_v2
-> │   ├── sample_submission_v2.csv
-> │   └── train_ship_segmentations_v2.csv
+
+├── data
+│   ├── test_v2
+│   ├── train_v2
+│   ├── sample_submission_v2.csv
+│   └── train_ship_segmentations_v2.csv
 
 1. First clone the repository. To do this, open a terminal, go to the directory where you want to clone the project and then enter the command:
 ```bash
